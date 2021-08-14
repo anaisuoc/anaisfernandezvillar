@@ -570,8 +570,9 @@ footer > div{
 	height: 100;
   scale:0.35;
   opacity:1;
-  animation: cssanimation 2.5s ease-in 2.9s forwards;
-  transition: 3.5s;
+ 
+  filter: grayscale(100%);
+
 
 }
 
@@ -600,7 +601,7 @@ footer > div{
 }
 
 .block .top {
-  background: linear-gradient(-45deg, #eed152, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #eeeeee, #202020);
 	-ms-transform: rotate(-60deg) skewX(30deg); /* IE 9 */
 	-webkit-transform: rotate(-60deg) skewY(30deg);
 	transform:  rotate(-60deg) skewY(30deg);
@@ -619,7 +620,7 @@ footer > div{
 }
 
 .block .left {
-  background: linear-gradient(200deg,  #e73c7e, #eed152);
+  background: linear-gradient(200deg,  #000000, #d8d4c3);
   animation: fluid 10s ease-in-out infinite;
   background-size: 300%;
 	-ms-transform: skewY(30deg); /* IE 9 */
@@ -628,7 +629,7 @@ footer > div{
 }
 
 .block .right {
-  background: linear-gradient(-45deg,  #eed152, #e73c7e);
+  background: linear-gradient(-45deg,  #c7b874, #272224);
 	-ms-transform: skewY(-30deg); /* IE 9 */
 	-webkit-transform: skewY(-30deg); 
 	transform: skewY(-30deg);

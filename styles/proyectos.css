@@ -401,6 +401,7 @@ main{
 .side2 {
   position: absolute;
   right: 0;
+  height: 70vh;
 }
 
 .main2 {
@@ -426,6 +427,11 @@ main{
     height:60vh;
 
   }
+  .side2 {
+  
+    height: 60vh;
+  }
+  
 }
 
 @media (max-width: 768px){
@@ -456,7 +462,7 @@ main{
     font-size: 0px;
   }
 
-  .side img {
+  .side img, .side2 {
     height: 50vh;
   }
 
