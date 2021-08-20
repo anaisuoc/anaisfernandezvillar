@@ -304,7 +304,6 @@ footer > div{
 }
 
 .footer-right img{
-  width: 70%;
   height: 70%;
 }
 
@@ -747,15 +746,15 @@ form {
   }
 }
 
+
 @media (min-width: 1800px){
 
 .photo-form div h1 {
   font-size: 2rem;
   padding-right:22%;
   line-height: 3rem;
-}
+}a[href^="tel:"], .mail {
 
-a[href^="tel:"], .mail {
   font-size: 1.5rem;
 
 }.feedback-input {

@@ -498,12 +498,9 @@ footer > div{
 .footer-right a:active{
   background-color: black;
 }
-
 .footer-right img{
-  width: 70%;
   height: 70%;
 }
-
 /* media queries footer */
 @media (max-width: 1100px){
 
