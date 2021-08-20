@@ -282,8 +282,8 @@ footer > div{
 .footer-right a {
   display: inline-flex;
   color: white;
-  height: 35px;
-  width: 35px;
+  height: 33px;
+  width: 33px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -291,8 +291,8 @@ footer > div{
   margin-left: 9px;
   transition: transform 0.3s;
   margin-top:15.5px;
+  transform:scale(1.1);
 }
-
 .footer-right a:hover{
   transform: scale(1.25); 
 }
@@ -509,4 +509,14 @@ main{
   .main h1:hover {
     color: hsla(0,0%,100%,.8);
 }
+}
+
+@media (min-width: 1800px){
+  .main h3 {
+    font-size: 1.4rem;
+  }
+  
+  .main h1{
+  font-size: 1.9rem;
+  }
 }
