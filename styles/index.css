@@ -887,4 +887,11 @@ display:none;
           font-size: 1.9rem;
           top:18%;
       }
-  }
+      .footer-left ul li a {
+
+        font-size: 1.08rem;
+      }.footer-left ul li  {
+      
+        font-size: 1.2rem;
+      }
+      }

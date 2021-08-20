@@ -290,8 +290,8 @@ footer > div{
 .footer-right a {
   display: inline-flex;
   color: white;
-  height: 35px;
-  width: 35px;
+  height: 33px;
+  width: 33px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -299,8 +299,8 @@ footer > div{
   margin-left: 9px;
   transition: transform 0.3s;
   margin-top:15.5px;
+  transform:scale(1.1);
 }
-
 .footer-right a:hover{
   transform: scale(1.25); 
 }
@@ -660,5 +660,29 @@ section div p{
 }
 
 
+@media (min-width: 1800px){
 
+.introduction p {
+  font-size: 1.3rem;
+}
 
+.tittle h1 {
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1.15rem;
+}
+section div p {
+
+  font-size: 1.3rem;
+
+}
+.footer-left ul li a {
+
+  font-size: 1.08rem;
+}.footer-left ul li  {
+
+  font-size: 1.2rem;
+}
+}

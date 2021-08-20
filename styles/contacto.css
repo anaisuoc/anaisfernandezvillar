@@ -283,8 +283,8 @@ footer > div{
 .footer-right a {
   display: inline-flex;
   color: white;
-  height: 35px;
-  width: 35px;
+  height: 33px;
+  width: 33px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -292,6 +292,7 @@ footer > div{
   margin-left: 9px;
   transition: transform 0.3s;
   margin-top:15.5px;
+  transform:scale(1.1);
 }
 
 .footer-right a:hover{
@@ -747,5 +748,29 @@ form {
 }
 
 
+@media (min-width: 1800px){
 
+.photo-form div h1 {
+  font-size: 1.9rem;
+  padding-right:10%;
+  line-height: 3rem;
+}a[href^="tel:"], .mail {
+
+  font-size: 1.6rem;
+
+}.feedback-input {
+  font-size: 1.2rem;
+  
+}#button-send {
+  
+  font-size: 1.3rem;
+  padding: 14px 24px;
+}.footer-left ul li a {
+
+  font-size: 1.08rem;
+}.footer-left ul li  {
+
+  font-size: 1.2rem;
+}
+}
 
