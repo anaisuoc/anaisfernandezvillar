@@ -429,12 +429,13 @@ spam{
     font-weight: 400;
   }
 }
-
 /* footer */
 footer{
   background: rgb(25,25,25);
   min-height: 66px;
   width: 100vw;
+  z-index: 11;
+  position: relative;
 }
 
 footer > div{
@@ -475,11 +476,12 @@ footer > div{
   color: white;
 }
 
+
 .footer-right a {
   display: inline-flex;
   color: white;
-  height: 35px;
-  width: 35px;
+  height: 33px;
+  width: 33px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -487,8 +489,8 @@ footer > div{
   margin-left: 9px;
   transition: transform 0.3s;
   margin-top:15.5px;
+  transform:scale(1.1);
 }
-
 .footer-right a:hover{
   transform: scale(1.25); 
 }
@@ -510,14 +512,7 @@ footer > div{
     padding-right: 4%;
   }
   }
-  @media (max-width: 768px){
 
-    nav ul li:first-child {
-      margin-top: 70px;
-    }
-    nav ul li a{
-    font-size: 1.1rem;
-    }}
 @media (max-width: 768px){
 
   footer {
@@ -535,42 +530,34 @@ footer > div{
     padding-bottom: 4%;
   }
 }
-
 @media (max-width: 576px){
- 
-  footer {
-    padding-bottom: 12px;
-  }
-
   .footer-left ul li {
     line-height: 2rem;
   }
-
   .footer-left ul li::after {
     content: "|";
     margin-left: 6px;
     margin-right: 1px;
-    color: #8f9296; 
-  }
+    color: #8f9296;
 
-  .footer-right a {
-    height: auto;
-    width: 10%;
-  }
 }
+
+}
+
+
 
 
 /*cubo*/
 #cube {
 	position: absolute;
-	left: 50%;
+	left: 48%;
 	top: 70%;
 	margin-left: -100px;
 	margin-top: -50px;
 	height: 100;
-  scale:0.35;
   opacity:1;
- 
+ transform: scale(.3);
+    transform-origin: 0 0;
   filter: grayscale(100%);
 
 
@@ -887,3 +874,17 @@ animation: explodetop 3.5s infinite;
   
 display:none;  
   }}
+
+
+  @media (min-width: 1800px){
+    #cube {
+  
+      transform: scale(.4);
+      left:41%;
+        }
+        h1 {
+ 
+          font-size: 1.9rem;
+          top:18%;
+      }
+  }
