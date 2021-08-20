@@ -747,16 +747,16 @@ form {
   }
 }
 
-
 @media (min-width: 1800px){
 
 .photo-form div h1 {
-  font-size: 1.9rem;
-  padding-right:10%;
+  font-size: 2rem;
+  padding-right:22%;
   line-height: 3rem;
-}a[href^="tel:"], .mail {
+}
 
-  font-size: 1.6rem;
+a[href^="tel:"], .mail {
+  font-size: 1.5rem;
 
 }.feedback-input {
   font-size: 1.2rem;
@@ -771,6 +771,9 @@ form {
 }.footer-left ul li  {
 
   font-size: 1.2rem;
+}.gradient > div {
+  width: 38%;
+ 
 }
 }
 
