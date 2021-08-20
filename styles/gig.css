@@ -329,6 +329,9 @@ main img {
 
 
 @media (max-width: 992px){
+  spam {
+    display:none;}
+    
   .flex-container {
     margin-top: 5%;
 }
@@ -344,6 +347,9 @@ main img {
 }
 }
 @media (max-width: 768px){
+  spam {
+    display:inline;}
+    
   main h1 {
     padding-top: 6%;
 }
@@ -452,7 +458,7 @@ main h1, main h3, main p {
   color:white;
 }
 .recomendations-recipe h1 {
-  padding-top: 2.5%;
+  padding-top: 2%;
   padding-left: 5%;
   padding-bottom: 2%;
   width: 100%;
@@ -497,7 +503,7 @@ main h1, main h3, main p {
 @media (max-width: 567px){
 
   .recomendations-recipe h1 {
-    padding-top: 3.5%;
+    padding-top: 3%;
     padding-bottom: 3%;
     padding-left:6%;
 }
@@ -557,8 +563,8 @@ footer > div{
 .footer-right a {
   display: inline-flex;
   color: white;
-  height: 35px;
-  width: 35px;
+  height: 33px;
+  width: 33px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -566,6 +572,7 @@ footer > div{
   margin-left: 9px;
   transition: transform 0.3s;
   margin-top:15.5px;
+  transform:scale(1.1);
 }
 
 .footer-right a:hover{
@@ -624,6 +631,18 @@ footer > div{
 
 
 
+@media (min-width: 1800px){
+  main h1{
+    font-size: 1.9rem;
+    }
+  
+    main h3{
+      font-size: 1.4rem;
+      }
+      main p{
+        font-size: 1.3rem;
+        }
+}
 
 
 
