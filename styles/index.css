@@ -1084,8 +1084,7 @@ padding-top: 14px;
   left: 50%;
   transform: translate(50%, 50%);
   border-radius: 50%;
-  border: 0.6vw solid #6d6875;
-}
+  border: 0.6vw solid rgb(136, 179, 179);}
 
 
 @media (max-width: 1100px){
