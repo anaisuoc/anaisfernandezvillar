@@ -476,12 +476,12 @@ section {
 	}
 }
 
-section figure img {
+section picture img {
   width: auto;
   float: right;
   height: calc(70vh - 66px);
   padding-top: 66px;
-  right: 5.5%;
+  right: 4%;
   position: fixed;
   z-index: 10;
   object-fit: cover;
@@ -568,11 +568,13 @@ section div p{
     height:70vh;top: 0;
   }
 
-  section figure img, section div, section, .gradient {
+  section picture img, section div, section, .gradient {
     position:absolute;
   }
+  section picture img {
+right:5.5%;  }
 
-  section figure {
+  section picture {
     width: auto;
   }
 

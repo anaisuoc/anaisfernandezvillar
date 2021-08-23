@@ -234,7 +234,7 @@ nav ul li a:hover{
 .description {
   background:black;
   width:30vw;
-  height: calc(100vh - 33px);  color:white;
+  height: calc(100vh - 66px);  color:white;
   position: relative;
 
 }
@@ -311,12 +311,12 @@ spam{
 .side {
   background: #fea;
   width:70vw;
-  height: calc(100vh - 33px);
+  height: calc(100vh - 66px);
 }
 
 .side img {
   width: 100%;
-  height: calc(100vh - 33px);
+  height: calc(100vh - 66px);
   object-fit: cover;
   top: 38px;
   position: relative;
@@ -906,6 +906,7 @@ display:none;
       color:black;
       width:100vw; animation: fluid 10s ease-in-out infinite;
       background: linear-gradient(-45deg, #070707, #505050, #2e2e2e, #b3b3b3);
+      display:none;
     }
     
     @keyframes fluido {
@@ -990,6 +991,7 @@ display:none;
   height:auto;
   width: 100vw;
   color: white;padding-left: 0;
+  display:none;
 
 }
   .slider {
