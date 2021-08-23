@@ -170,7 +170,7 @@ nav ul li a:hover{
   }
   }
 @media (max-width: 768px){
-  .divhola{
+  .divhola,.cu{
    display:none;
   }
   .menu-ham{
@@ -234,7 +234,7 @@ nav ul li a:hover{
 .description {
   background:black;
   width:30vw;
-  height: calc(100vh - 66px);  color:white;
+  height: calc(100vh - 33px);  color:white;
   position: relative;
 
 }
@@ -311,12 +311,12 @@ spam{
 .side {
   background: #fea;
   width:70vw;
-  height: calc(100vh - 66px);
+  height: calc(100vh - 33px);
 }
 
 .side img {
   width: 100%;
-  height: calc(100vh - 66px);
+  height: calc(100vh - 33px);
   object-fit: cover;
   top: 38px;
   position: relative;
@@ -904,7 +904,8 @@ display:none;
       background: rgb(25,25,25);
       background-size: 300%;
       color:black;
-      width:100vw;
+      width:100vw; animation: fluid 10s ease-in-out infinite;
+      background: linear-gradient(-45deg, #070707, #505050, #2e2e2e, #b3b3b3);
     }
     
     @keyframes fluido {
@@ -916,7 +917,7 @@ display:none;
 
     .eyes {
       top: 100%;
-      transform: translateY(55%);
+      transform: translateY(20vh);
       width:100vw ;     text-align: center;
   }
   
@@ -986,9 +987,9 @@ display:none;
 
 
 .cu {
-  height:33vh;
+  height:auto;
   width: 100vw;
-  color: white;
+  color: white;padding-left: 0;
 
 }
   .slider {
@@ -1013,7 +1014,7 @@ display:none;
 
     margin-top: 25vh;
 }
-    .divhola p {
+    footer p {
     
       flex-shrink: 0;
       width: auto;
@@ -1036,7 +1037,7 @@ padding-top: 14px;
   }
 }
 .divhola {
-  height: 57vh;
+  height: 60vh;
   animation: fluido 10s ease-in-out infinite;
   background: rgb(25,25,25);      background-size: auto;
   background-size: 300%;
@@ -1054,11 +1055,67 @@ padding-top: 14px;
   border-top: rgba(255, 255, 255, 0.9) 2px solid;
   color: white;
   transform: translateX(-65%);
-  margin-top: 25vh;
+  margin-top: 0;
   background: black;
 }
 
 #cube {
  
   display: none;
+}.eye {
+  width: 11vw;
+  height: 11vw;
+  background: #fff;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  animation: blink 3s infinite;
+  margin-top:0;
+  margin-bottom:0;margin-left: 1vw;
+  margin-right: 1vw;
+}.ball {
+  width: 3vw;
+  height: 3vw;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  border-radius: 50%;
+  border: 0.6vw solid #6d6875;
 }
+
+
+@media (max-width: 1100px){
+
+  .eye {
+    width: 15vw;
+    height: 15vw;
+    transform: scale(1.1);
+  
+  }.ball {
+    width: 3.5vw;
+    height: 3.5vw;
+    transform: scale(1.1);
+
+    border: 0.6vw solid #6d6875;
+  }
+  .eyes {
+    transform: translateY(22vh);
+  
+}
+  }.cu {
+    height: auto;
+    width: 100vw;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container p{
+  font-weight: 300;
+}
+
+
