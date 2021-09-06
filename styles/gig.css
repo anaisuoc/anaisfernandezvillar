@@ -515,10 +515,10 @@ main h1, main h3, main p {
 }
 }
 /* footer */
-footer{
-  background: rgb(25,25,25);
+footer {
+  background: #191919;
   min-height: 66px;
-  width: 100vw;
+  width: 100%;
   z-index: 11;
   position: relative;
 }

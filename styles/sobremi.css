@@ -242,12 +242,11 @@ nav ul li a:hover{
 /* footer */
 
 footer {
-  background: rgb(25,25,25);
+  background: #191919;
   min-height: 66px;
-  width: 100vw;
-  z-index: 10;
-  position: absolute;
-  margin-top: 2%;
+  width: 100%;
+  z-index: 11;
+  position: relative;
 }
 footer > div{
   padding-left:2.5%;
@@ -479,7 +478,7 @@ section {
 section picture img {
   width: auto;
   float: right;
-  height: calc(69vh - 66px);
+  height: calc(70vh - 66px);
   padding-top: 66px;
   right: 4%;
   position: fixed;
@@ -516,15 +515,19 @@ section div p{
   font-weight:600;
   opacity:0.9;
  }
-
-
+ @media (min-width: 1500px){
+   section div h1{
+  font-size:2rem;
+ }
+ 
+}
  @media (max-width: 1100px){
 
   article, section {
     width: 50vw;;
   }
   section div {
-    width: 50%;
+    width: 50vw;
   }
 
   }
