@@ -519,6 +519,9 @@ section div p{
    section div h1{
   font-size:2rem;
  }
+ article {
+  margin-bottom: 1.5rem;
+}
  
 }
  @media (max-width: 1100px){
