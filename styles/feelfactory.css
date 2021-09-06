@@ -326,7 +326,7 @@ main img {
 }
 
 .flex-icons {
-  width: 15vw;
+  width: 25%;
   margin: 0%;
 }
 
@@ -456,7 +456,7 @@ main img {
   }
 
   .flex-icons {
-    width: 25vw;
+    width: 50%;
     margin:0;
   }
 
@@ -589,6 +589,7 @@ main img {
 /*recetas recomendadas*/
 .recomendations-recipe{
   color:white;
+  background-color:black;
 }
 .recomendations-recipe h1 {
   padding-top: 2.5%;

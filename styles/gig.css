@@ -456,6 +456,7 @@ main h1, main h3, main p {
 /*recetas recomendadas*/
 .recomendations-recipe{
   color:white;
+  background-color:black;
 }
 .recomendations-recipe h1 {
   padding-top: 2%;
