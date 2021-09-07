@@ -365,6 +365,7 @@ article {
   width: 60vw;
   color: white;
   position: relative;
+  margin-bottom:1%;
 }
 
 .introduction p {
@@ -532,7 +533,10 @@ section div p{
   section div {
     width: 50vw;
   }
-
+  article {
+    
+    margin-bottom: 2%;
+}
   }
 
 
@@ -545,8 +549,8 @@ section div p{
 
   article {
     padding-top: 70vh;
-    padding-bottom: 5%;
-  }
+    padding-bottom: 3%;
+}
 
   article,  .introduction{
     width: 100vw;
@@ -619,7 +623,7 @@ right:5.5%;  }
 @media (max-width: 576px){
   article {
     padding-bottom: 4%;
-  }
+}
 
   .tittle h1 {
     font-size: 1.3rem;
@@ -652,9 +656,7 @@ right:5.5%;  }
   margin-bottom: 4%;
   }
 
-  article {
-    padding-bottom: 8%;
-  }
+
 
   .introduction p {
     padding-top: 10%;
