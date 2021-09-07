@@ -318,6 +318,10 @@ main img {
   margin-top: 2.5%;
   margin-bottom: 5%;
 }
+.codeart div {
+
+  margin-bottom: 3%;
+}
 .flex-cartel2 {
   width: 24vw;
 
@@ -378,7 +382,9 @@ main img {
     margin-top: 1%;
     margin-bottom: 6%;
   }
-
+  .codeart div {
+    margin-bottom: 6%;
+}
   .flex-instagram {
     width: 33.33%;
   }
@@ -444,6 +450,9 @@ main h1, main h3, main p {
   .flex-cartel {
     width: 43%;
   }
+  .codeart div {
+    margin-bottom: 4%;
+}
   .flex-instagram {
     width: 33.33%;
   }
@@ -547,6 +556,57 @@ main h1, main h3, main p {
 }.flex-item:nth-child(6),.flex-item:nth-child(9),.flex-item:nth-child(7) {
   margin-top: 10%;
   margin-bottom: 0;
+}
+
+.codeart{
+    flex-direction: column;
+}
+.codeart div{
+margin:auto;
+margin-bottom: 10%;
+margin-top:0;
+
+}
+.codeart div:nth-child(5) {
+  width: 85%;
+}
+.codeart div:nth-child(1), .codeart div:nth-child(2), .codeart div:nth-child(6), .codeart div:nth-child(9), .codeart div:nth-child(7)  {
+  margin-bottom: 10%;
+  margin-top:0;
+}
+.codeart div:nth-child(8) {
+  display:block;
+}
+
+.codeart div:nth-child(1) {
+  order:1;
+}
+.codeart div:nth-child(2) {
+  order:2;
+}
+.codeart div:nth-child(3) {
+  order:4;
+}
+.codeart div:nth-child(4) {
+  order:3;
+}
+.codeart div:nth-child(5) {
+  order:5;
+}
+.codeart div:nth-child(6) {
+  order:6;
+}
+.codeart div:nth-child(7) {
+  order:8;
+}
+.codeart div:nth-child(8) {
+  order:7;
+}
+.codeart div:nth-child(9) {
+  order:10;
+}
+.codeart div:nth-child(10) {
+  order:9;
 }
 }
 
