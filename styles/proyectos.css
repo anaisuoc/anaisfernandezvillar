@@ -299,9 +299,9 @@ footer > div{
   transform: scale(1.25); 
 }
 
+
 .footer-right a:active{
-  background-color: black;
-}
+  filter:invert(25%);}
 
 .footer-right img{
   height: 70%;
@@ -362,7 +362,7 @@ main{
 }
 .flexbox{
   display:flex;
-  height: 70vh;
+  height: 75vh;
   width:100%;
 
 }
@@ -375,10 +375,12 @@ main{
 .side {
   width: 70vw;
   background-color: black;
+  height:75vh;
+
 }
 .side img {
   object-fit: cover;
-  height:70vh;
+  height:75vh;
   width:100%;
 }
 .main h1 {
@@ -395,6 +397,8 @@ main{
   font-weight: 300;
   font-size: 1.05rem;
   padding-right: 11%;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 .main h1:hover {
@@ -403,7 +407,7 @@ main{
 .side2 {
   position: absolute;
   right: 0;
-  height: 70vh;
+  height: 75vh;
 }
 
 .main2 {

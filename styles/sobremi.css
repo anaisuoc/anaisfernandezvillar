@@ -304,9 +304,9 @@ footer > div{
   transform: scale(1.25); 
 }
 
+
 .footer-right a:active{
-  background-color: black;
-}
+filter:invert(25%);}
 
 .footer-right img{
   height: 70%;
@@ -362,19 +362,19 @@ p {
 
 article {
   background: black;
-  width: 60vw;
+  width:67vw;
   color: white;
   position: relative;
   margin-bottom:1%;
 }
 
 .introduction p {
-  padding-top: 110px;
-  padding-left: 4.5%;
+  padding-top: calc(6vh + 66px);
+  padding-left: 3vw;
   font-weight: 300;
   width: 80%;
   padding-bottom: 1.5%;
-
+  font-size: 1.1rem;
 }
 
 .introduction p:last-child {
@@ -383,13 +383,14 @@ article {
 }
 
 .introduction p {
-  font-weight: 400;
+  font-weight: regular;
 }
 article spam{
 
   animation: fluido 10s ease-in-out infinite;
-  background: linear-gradient(-45deg, #eed152, #e73c7e, #23a6d5, #23d5ab);
+  background:white;
   background-size: 300%;
+  font-weight: 600;
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -455,13 +456,13 @@ hr {
 
 
 section {
-  background: linear-gradient(-45deg,#eed152, #e73c7e, #23a6d5, #23d5ab);
+  background: white;
  background-size: 400% 400%;
  animation: my-gradient 15s ease infinite;
  height: 100vh;
   position: fixed;
   right: 0;
-  width: 40vw;
+  width: 35vw;
 }
 
 @keyframes my-gradient {
@@ -477,15 +478,16 @@ section {
 }
 
 section picture img {
-  width: auto;
+  width: 28vw;
   float: right;
-  height: calc(70vh - 66px);
+  height: auto;
+  max-height:70vh;
   padding-top: 66px;
-  right: 4%;
   position: fixed;
   z-index: 10;
   object-fit: cover;
-
+  padding-top: calc(6vh + 66px);
+  padding-left: 3.5vw;
 }
 section div{
   height:30vh;
@@ -497,7 +499,7 @@ section div{
   font-size: 0;
   bottom:0;
   position:fixed;
-  width: 40vw;
+  width: 35vw;
 
 }
 
@@ -536,6 +538,21 @@ section div p{
   article {
     
     margin-bottom: 2%;
+}
+.introduction p {
+
+  font-size: 1rem;
+}section picture img {
+  width: 40.5vw;
+  float: right;
+  height: auto;
+  max-height: 70vh;
+  padding-top: 66px;
+  position: fixed;
+  z-index: 10;
+  object-fit: cover;
+  padding-top: calc(6vh + 66px);
+  padding-left: 4.75vw;
 }
   }
 
@@ -582,8 +599,18 @@ section div p{
     position:absolute;
   }
   section picture img {
-right:5.5%;  }
-
+    right: 0;
+}
+section picture img {
+  width: auto;
+  float: right;
+  height: 100vh;
+  padding-top: 66px;
+  z-index: 10;
+  object-fit: cover;
+  width: 100vw;
+  height: calc(70vh - 66px);
+}
   section picture {
     width: auto;
   }
@@ -600,6 +627,28 @@ right:5.5%;  }
     padding-bottom: 1%;
     padding-top: 4.5%;
   }
+  .introduction p {
+    padding-left: 7.5vw;
+}section picture img {
+  width: auto;
+  float: right;
+  height: 100vh;
+  padding-top: 66px;
+  z-index: 10;
+  object-fit: cover;
+  width: 85vw;
+  height: calc(70vh - 66px);
+  padding-right: 7.5vw;
+  margin: auto;
+}.tittle {
+  width: 85vw;
+  margin-left: 3.5vw;
+}hr {
+  width: 100%;
+}.flexbox-container > div:first-child {
+  width: 20%;
+
+}
 
 }
   @media (min-width: 600px){
@@ -621,8 +670,27 @@ right:5.5%;  }
   }
  
 @media (max-width: 576px){
+  section picture img,
+  section {
+    
+    height: calc(60vh - 66px);
+}
   article {
     padding-bottom: 4%;
+}article {
+  padding-top: 70vh;
+
+}section picture img {
+  width: auto;
+  float: right;
+  height: 100vh;
+  padding-top: 66px;
+  z-index: 10;
+  object-fit: cover;
+  width: 100vw;
+  height: calc(70vh - 66px);
+  padding-right: 0;
+  margin: auto;
 }
 
   .tittle h1 {
@@ -642,7 +710,9 @@ right:5.5%;  }
     padding: 10px;
     margin-right: 10px;
   }
-
+  .introduction p {
+    font-size: 0.9rem;
+}
   section div h1 {
     font-size: 1.9rem;
   }
@@ -694,4 +764,22 @@ section div p {
 
   font-size: 1.2rem;
 }
+}
+
+section {
+  background: linear-gradient(-45deg,#eed152, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  animation: my-gradient 35s ease infinite;
+  background-image:url("../img/work14.jpg");
+}
+@keyframes my-gradient {
+	0% {
+		background-position: 0% 100%;
+	}
+	50% {
+		background-position: 100% 300%;
+	}
+	100% {
+		background-position: 300% 100%;
+	}
 }

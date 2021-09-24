@@ -372,10 +372,23 @@ footer > div{
 
 .gradient {
   background: linear-gradient(-45deg,#eed152, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: my-gradient 15s ease infinite;
+  background-size: 300% 150%;
+  animation: my-gradient 25s ease infinite;
+  background-image:url("../img/work12.jpg");
+  padding-top:66px;
 }
 
+@keyframes my-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .gradient > div{
   background-color:black;
   width:40%;
@@ -385,16 +398,16 @@ footer > div{
 }
  
 .gradient > div h1 {
-  border-top: white 3px solid;
-  margin-top: 8%;
+  border-bottom: white 3px solid;
+  margin-bottom: 6%;
   margin-left: 8%;
   font-weight: 300;
   font-size: 1.6rem;
-  padding-top:6%;
+  padding-top: 6%;
   padding-right: 22%;
- text-align: left;
+  text-align: left;
+  margin-top: 2%;
 }
-
 .gradient > div p  {
   text-align: left;
   margin-left: 8%;
@@ -412,17 +425,6 @@ footer > div{
   margin-left: 8%;
 }
 
-@keyframes my-gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 .photo-form div h1{
   font-size: 1.6rem;
@@ -477,11 +479,11 @@ textarea {
 }
 
 #button-send:hover {
-  opacity:0.8;
   animation: fluido 10s ease-in-out infinite;
-  background: linear-gradient(-45deg, #eed152, #e73c7e, #23a6d5, #23d5ab);
+background: #b3b2b2;
   background-size: 300%;
   color:black;
+
 }
 
 @keyframes fluido {
@@ -552,6 +554,9 @@ form {
   .container-form {
     min-height: calc(100vh - 66px);
   }
+  a[href^="tel:"]:hover, .mail:hover {
+    color:rgba(255, 255, 255, 0.7);
+    }
 }
 
 @media (max-width: 1100px){
@@ -579,33 +584,32 @@ form {
   }
 
   .gradient {
-    padding-top: 8%;
+    padding-top: calc(7.5% + 66px);
     padding-bottom: 8%;
-  }
-
+}
   .gradient > div {
     width: 82%;
-    margin-left: 8%;
+    margin-left: 9%;
     padding-bottom: 4.5%;
   }
 
   .gradient > div h1 {
     border-top: 0;
     padding-right: 8%;
-    font-weight:600;
+    font-weight:400;
   }
 
   form {
-    padding-top: 4%;
-  }
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
 }
 
 @media (max-width: 768px){
- 
-  .gradient {
-    padding-top: 3%;
-    padding-bottom: 4%;
-  }
+  a[href^="tel:"]:hover, .mail:hover {
+    color:rgba(255, 255, 255, 0.7);
+    }
+  
   
   form {
     width: 85%;
@@ -613,22 +617,7 @@ form {
     padding-top: 5%;
     padding-bottom: 3%;
   }
-
-  .gradient > div {
-    width: 100%;
-    margin: 0 auto;
-    background: transparent;
-    color: black;
-  }
-
-  .gradient > div p {
-    text-align: left;
-    margin-left: 8%;
-    font-size: 1.4rem;
-    padding-bottom: 4%;
-    display: inline;
-    font-weight: 600;
-  }
+  
 
   a[href^="tel:"], .mail {
     color:black;
@@ -642,34 +631,34 @@ form {
   .mail{
     padding-right: 8%;
   }
+  .gradient a {
+   color:white;
+  }
 }
 
 @media (max-width:  576px){
-  .gradient {
-    padding-top: 10%;
-    padding-bottom: 6%;
-  }
+  .gradient > div {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+.gradient > div {
+    width: 95%;
+    margin-left: 0;
+    padding-bottom: 4.5%;
+}.gradient {
+  BACKGROUND:BLACK;
+}
+.gradient > div h1 {
+  border-bottom: NONE;
 
-  .gradient > div h1 {
-    padding-right: 8%;
-    font-weight: 600;
-    font-size: 1.4rem;
-    margin-top: 12%;
-    padding-bottom: 8%;
-    line-height: 2rem;
-  }
+}.photo-form div h1 {
 
-  .gradient > div p {
-    text-align: left;
-    margin-left: 8%;
-    font-size: 1.4rem;
-    padding-bottom: 4%;
-    display: inline;
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 38px;
-  }
+  line-height: 2.4rem;
+}
+.black a{
+  margin-left: 6%;
 
+}
   form {
     padding-top: 8%;
     padding-bottom: 6%;
@@ -710,6 +699,7 @@ form {
     margin: auto;
     margin-left: 6%;
     margin-bottom: 8%;
+    display: none;
   }
 
   .gradient > div h1 {
@@ -738,6 +728,9 @@ form {
   .feedback-input {
     margin-bottom: 4%;
   }
+  a[href^="tel:"]:hover, .mail:hover {
+    color:rgba(255, 255, 255, 0.7);
+    }
 }
 
 @media (min-width:  576px){

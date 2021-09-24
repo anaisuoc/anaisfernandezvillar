@@ -248,7 +248,7 @@ h1{
 
 spam{
   animation: fluid 10s ease-in-out infinite;
-  background: linear-gradient(-45deg, #eed152, #e73c7e, #23a6d5, #23d5ab);
+  background: white;
   background-size: 300%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -500,8 +500,7 @@ footer > div{
 }
 
 .footer-right a:active{
-  background-color: black;
-}
+  filter:invert(25%);}
 .footer-right img{
   height: 70%;
 }

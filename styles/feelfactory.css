@@ -242,15 +242,17 @@ main {
 
 main h1, main h3, main p{
   padding-right: 7%;
-  padding-left: 8%;
+  padding-left: 3vw;
   width: 75%;
   font-weight: 600;
 }
 
 main h1 {
-  padding-top: 8%;
+  padding-top: 10%;
   font-size: 1.6rem;
-  padding-bottom:0.7%;
+  padding-bottom: 0.7%;
+  padding-top: 6vh;
+  padding-left: 3vw;
 }
 
 main h3 {
@@ -474,7 +476,7 @@ main img {
 @media (max-width: 576px){
   
   .flexbox-container > div:first-child, .recomendations-recipe h1 {
-    padding-left:2.3%;
+    padding-left:1%;
   }
   spam {
   display:none;
@@ -719,9 +721,9 @@ footer > div{
   transform: scale(1.25); 
 }
 
+
 .footer-right a:active{
-  background-color: black;
-}
+  filter:invert(25%);}
 
 .footer-right img{
   height: 70%;
