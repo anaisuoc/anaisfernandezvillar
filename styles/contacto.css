@@ -373,7 +373,7 @@ footer > div{
 .gradient {
   background: linear-gradient(-45deg,#eed152, #e73c7e, #23a6d5, #23d5ab);
   background-size: 300% 150%;
-  animation: my-gradient 25s ease infinite;
+  animation: my-gradient 50s linear infinite;
   background-image:url("../img/work12.jpg");
   padding-top:66px;
 }
@@ -655,9 +655,8 @@ form {
 
   line-height: 2.4rem;
 }
-.black a{
-  margin-left: 6%;
-
+.black a {
+  margin-left: 6vw;
 }
   form {
     padding-top: 8%;
@@ -704,9 +703,12 @@ form {
 
   .gradient > div h1 {
     font-size: 1.35rem;
-    margin-left: 6%;
     margin-top: 10%;
-  }
+    width: 88vw;
+    margin-left: 6vw;
+    padding-right: 0;
+margin-right: 5vw;
+}
 
   .gradient {
     padding-top: 10%;

@@ -731,11 +731,43 @@ section picture img {
   .introduction p {
     padding-top: 10%;
   }
-
+  .introduction p {
+    padding-left: 6vw;
+    width: 88%;
+  }
   .flexbox-container > div:last-child {
     width:90%;
     padding-right: 0;
   }
+  .tittle {
+    width: 88vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}.tittle h1 {
+  
+  padding-left: 0;
+
+}hr {
+  width: 88vw;
+}hr {
+
+  margin-right: 0;
+  margin-left: 0;
+ 
+}.flexbox-container {
+  
+  width: 88vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}.flexbox-container > div:first-child {
+  width: 40%;
+  padding: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 0;
+  margin-right: 0;
+}
 }
 
 
@@ -769,7 +801,7 @@ section div p {
 section {
   background: linear-gradient(-45deg,#eed152, #e73c7e, #23a6d5, #23d5ab);
   background-size: 300%;
-  animation: my-gradient 35s ease infinite;
+  animation: my-gradient 50s linear infinite;
   background-image:url("../img/work14.jpg");
 }
 @keyframes my-gradient {

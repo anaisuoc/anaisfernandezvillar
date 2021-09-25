@@ -490,9 +490,9 @@ main img {
   background-color:black;
 }
 .recomendations-recipe h1 {
-  padding-top: 2%;
+  padding-top: 2vh;
   padding-left: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 2vh;
   width: 100%;
   background: black;
   font-size: 1.2rem;
