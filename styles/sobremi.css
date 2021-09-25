@@ -736,6 +736,7 @@ section picture img {
   .introduction p {
     padding-left: 6vw;
     width: 88%;
+    padding-right: 7vw;
   }
   .flexbox-container > div:last-child {
     width:90%;
