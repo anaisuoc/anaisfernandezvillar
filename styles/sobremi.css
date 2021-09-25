@@ -725,7 +725,9 @@ section picture img {
   hr {
   margin-bottom: 4%;
   }
-
+.jornada{
+  display:none;
+  }
 
 
   .introduction p {
