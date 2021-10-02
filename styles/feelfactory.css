@@ -195,7 +195,6 @@ nav ul li a:hover{
     top: 66px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
     font-size: 1rem;
   }
 
